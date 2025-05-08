@@ -86,10 +86,11 @@ h2{
     margin-bottom: 20px;
 }
 #generate-btn:hover {
-    background-color: rgba(16, 185, 129, 0.8);
+    background-color: rgba(39, 53, 73, 1);
 }
 #generate-btn:active {
-    background-color: rgba(16, 185, 129, 0.6);
+    background-color: rgba(39, 53, 73, 1);
+    color: rgba(93, 239, 146, 1);
 }
 
 #inputs {
