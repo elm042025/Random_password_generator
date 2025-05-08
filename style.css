@@ -18,11 +18,11 @@ body {
 
 #theme-btn {
     margin-top: 2%;
+    background-color: rgba(236, 253, 245, 0);
     max-height: fit-content;
-    background-color: rgb(232, 232, 232);
     border: none;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 #theme-btn:hover {
     scale: 1.1;
@@ -83,7 +83,8 @@ h2{
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
+    margin-top: 10px;
 }
 #generate-btn:hover {
     background-color: rgba(39, 53, 73, 1);
@@ -98,7 +99,7 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 #inputs input{
@@ -120,4 +121,7 @@ h2{
 }
 .dark-mode .black{
     color: rgb(255, 255, 255);
+}
+.dark-mode #theme-btn img {
+    transform: rotate(180deg);
 }
